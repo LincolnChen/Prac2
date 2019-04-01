@@ -1,0 +1,61 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(mac.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.registrationform{
+  width: 100%;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  padding: 30px 40px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.registrationform h1{
+  font-size: 50px;
+  font-family:cursive;
+}
+
+.form{
+  margin: 8px 0px;
+  border: 1px solid gray;
+  padding: 15px 20px;
+  border-radius: 13px;
+  text-align: left;
+  font-size: 17px;
+  margin-bottom: 10px
+}
+
+.form input, date{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 15px;
+  margin-top: 6px;
+
+}
+
+.submit input[type = submit]{
+  width: 100%;
+  display: block;
+  background: #F06A00;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 30px;
+  color: white;
+  text-transform: uppercase;
+}
+.footer{
+    text-align: center;
+
+}
